@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #515151;
-
+    box-sizing: border-box;
 }
 
 .img-mobile {
@@ -240,26 +240,28 @@ header {
 
 .section4 {
     width: 100%;
-    margin-left: 24px;
 
 }
 
 .section4 > h2 {
     text-align: center;
     font-weight: bold;
-    padding: 32px;
+    padding: 32px 0px;
+    width: 100%;
 
 }
 
 .s4-container {
+    width: 100%;
     display: flex;
-
 }
 
 .s4-leftcontent {
     width: 60%;
-    margin-right: 24px;
+    padding: 0px 24px;
+    box-sizing: border-box;
 }
+
 
 .s4-leftcontent-c {
     padding: 24px 0px 32px;
@@ -277,7 +279,7 @@ header {
 
 .s4-box {
     display: flex;
-    padding: 16px;
+    padding: 16px 0px 16px 16px;
 }
 
 .s4-box:first-child {
@@ -294,10 +296,10 @@ header {
     flex-direction: column;
     justify-content: center;
     width: 65%;
-    padding: 16px;
+    padding: 16px 0px 16px 16px;
 }
 
-.s4-box-c > h3 {
+.s4-box-c > h3, .s4-box-c > p {
     padding: 16px 0px;
 
 }
@@ -453,13 +455,14 @@ footer {
 
     .section4 {
         width: 100%;
-        margin-left: 0px;
+        padding-left: 0px;
+
     }
     
     .section4 > h2 {
         text-align: center;
         font-weight: bold;
-        padding: 32px 32px 16px 32px;
+        padding: 32px 0px 16px 0px;
     }
 
     .s4-container {
