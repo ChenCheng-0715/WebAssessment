@@ -1,5 +1,15 @@
 # WebAssessment
 
+
+Welcome to the course assessment for the WEB module!
+
+In this session, you will complete the Colmar Academy project on Codecademy.
+
+By the end of this session, you will be able to: 
+Build Colmar Academy’s responsive website from scratch.
+
+
+Questions:
 What did you like about this project?
 -- It is a good practice of simulating web design with given UI/UX.
 
